@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="age"/>
+<node id="portembarked"/>
+<node id="fare"/>
+<node id="numparentschildren"/>
+<node id="passengerclass"/>
+<node id="sex"/>
+<node id="survived"/>
+<node id="numsiblings"/>
+<edge source="age" target="portembarked"/>
+<edge source="age" target="fare"/>
+<edge source="age" target="numparentschildren"/>
+<edge source="age" target="passengerclass"/>
+<edge source="age" target="sex"/>
+<edge source="age" target="survived"/>
+<edge source="age" target="numsiblings"/>
+<edge source="portembarked" target="fare"/>
+<edge source="portembarked" target="numparentschildren"/>
+<edge source="portembarked" target="passengerclass"/>
+<edge source="portembarked" target="sex"/>
+<edge source="portembarked" target="survived"/>
+<edge source="portembarked" target="numsiblings"/>
+<edge source="fare" target="numparentschildren"/>
+<edge source="fare" target="passengerclass"/>
+<edge source="fare" target="sex"/>
+<edge source="fare" target="survived"/>
+<edge source="fare" target="numsiblings"/>
+<edge source="numparentschildren" target="passengerclass"/>
+<edge source="numparentschildren" target="sex"/>
+<edge source="numparentschildren" target="survived"/>
+<edge source="numparentschildren" target="numsiblings"/>
+<edge source="passengerclass" target="sex"/>
+<edge source="passengerclass" target="survived"/>
+<edge source="passengerclass" target="numsiblings"/>
+<edge source="sex" target="survived"/>
+<edge source="sex" target="numsiblings"/>
+<edge source="survived" target="numsiblings"/>
+</graph></graphml>
